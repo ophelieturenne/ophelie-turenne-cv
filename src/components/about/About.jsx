@@ -34,11 +34,18 @@ const About = () => {
               <small>Middlesex Univeristy of Mauritius</small>
             </article>
 
-          
+            <article className='about__card'>
+              <FaUniversity className='about__icon' />
+              <h4>Bac(+3/+4)</h4>
+              <h6>Web Development<br/>Fullstack development</h6>
+              <br/>
+              <small>Le Wagon</small>
+            </article>
+
           </div>
 
           <p>I am B. Sc computer science system engineering holder and my specialties includes: Web development (Front-End) , UI/UX and Graphic Design.
-          <br />I have always been passionate about Technology and Design. 
+          <br />I have always been passionate about Technology and Design.
           <br />It's so captivating to make these fields interact and create amazing outcomes.</p>
           <a href="#contact" className='btn btn-primary'> Let's Talk</a>
 

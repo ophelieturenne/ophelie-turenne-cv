@@ -8,6 +8,8 @@ const Experience = () => {
       <h5>What skills I have</h5>
       <h2>My Experience</h2>
       <div className="container experience__container">
+
+        {/* =============== END OF FRONT END ====================== */}
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
@@ -19,23 +21,23 @@ const Experience = () => {
               </div>
             </article>
 
-            
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>CSS</h4>
+                <h4>CSS & SCSS</h4>
               </div>
             </article>
 
-            
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Javascript</h4>
+                <h4>JavaScript</h4>
               </div>
             </article>
 
-            
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
@@ -46,9 +48,57 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>SEO</h4>
+                <h4>ReactJs</h4>
               </div>
             </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Node JS</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Ajax & DOM</h4>
+              </div>
+            </article>
+
+
+
+          </div>
+        </div>
+
+        {/* =============== END OF Bacak END ====================== */}
+        <div className="experience__frontend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>MVC</h4>
+              </div>
+            </article>
+
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>CRUD</h4>
+              </div>
+            </article>
+
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>SQL & OOP</h4>
+              </div>
+            </article>
+
 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
@@ -57,14 +107,20 @@ const Experience = () => {
               </div>
             </article>
 
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Ruby on Rails</h4>
+              </div>
+            </article>
 
-            
+
+
           </div>
         </div>
 
-        {/* =============== END OF FRONT END ====================== */}
-
-        <div className="experience__backend">
+        {/* =============== END OF DESIGN ====================== */}
+        <div className="experience__design">
         <h3>Design</h3>
           <div className="experience__content">
 
@@ -75,7 +131,7 @@ const Experience = () => {
               </div>
             </article>
 
-            
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
@@ -83,7 +139,7 @@ const Experience = () => {
               </div>
             </article>
 
-            
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
@@ -91,7 +147,7 @@ const Experience = () => {
               </div>
             </article>
 
-            
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
@@ -99,7 +155,13 @@ const Experience = () => {
               </div>
             </article>
 
-            
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Figma</h4>
+              </div>
+            </article>
+
           </div>
         </div>
       </div>
