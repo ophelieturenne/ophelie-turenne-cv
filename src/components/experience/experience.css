@@ -1,12 +1,12 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
 }
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2rem 5rem;
+    padding: 2rem 2rem;
     border-radius: 2rem;
     border: 4px solid transparent;
     transition: var(--transition);
@@ -40,7 +40,7 @@
     color: var(--color-primary);
 }
 
-/* ========== MEDIA QUERIES (MEDIUM DEVICES) ======================== */ 
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
 @media screen and (max-width: 1024px) {
    .experience__container {
     grid-template-columns: 1fr;
@@ -55,18 +55,18 @@
    .experience__content {
     padding: 1rem;
    }
-    
+
 }
 
-/* ========== MEDIA QUERIES (SMALL DEVICES) ======================== */ 
+/* ========== MEDIA QUERIES (SMALL DEVICES) ======================== */
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
        }
-    
+
        .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
-       } 
-    
+       }
+
 }
