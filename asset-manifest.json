@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ophelie-turenne-cv/static/css/main.c28bc70e.css",
-    "main.js": "/ophelie-turenne-cv/static/js/main.c576cfa1.js",
+    "main.js": "/ophelie-turenne-cv/static/js/main.19df3909.js",
+    "static/media/ophelie_turenne_cv_online.pdf": "/ophelie-turenne-cv/static/media/ophelie_turenne_cv_online.421d581bd33a30450523.pdf",
     "static/media/p2.png": "/ophelie-turenne-cv/static/media/p2.6a682e1405da396eb313.png",
     "static/media/imgVector1.png": "/ophelie-turenne-cv/static/media/imgVector1.22bce0b636821889ce64.png",
-    "static/media/Ophelie_Turenne_Resume.pdf": "/ophelie-turenne-cv/static/media/Ophelie_Turenne_Resume.cd2aca6cdaf910f9c808.pdf",
     "index.html": "/ophelie-turenne-cv/index.html",
     "main.c28bc70e.css.map": "/ophelie-turenne-cv/static/css/main.c28bc70e.css.map",
-    "main.c576cfa1.js.map": "/ophelie-turenne-cv/static/js/main.c576cfa1.js.map"
+    "main.19df3909.js.map": "/ophelie-turenne-cv/static/js/main.19df3909.js.map"
   },
   "entrypoints": [
     "static/css/main.c28bc70e.css",
-    "static/js/main.c576cfa1.js"
+    "static/js/main.19df3909.js"
   ]
 }
